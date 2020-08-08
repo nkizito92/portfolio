@@ -19,6 +19,7 @@ nav li {
 .bgImg {
   position: relative;
   width: 100%;
+  min-width:320px;
   height: 480px;
   filter: grayscale(0.15);
   background-position: center;
