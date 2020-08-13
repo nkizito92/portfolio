@@ -19,11 +19,29 @@ nav li {
 .bgImg {
   position: relative;
   width: 100%;
-  min-width:320px;
+  min-width: 320px;
   height: 480px;
   filter: grayscale(0.15);
   background-position: center;
   background-image: url("../images/codingtree.jpg");
   background-repeat: no-repeat;
   -webkit-filter: grayscale(0.15);
+}
+
+main {
+  width: 100%;
+  max-width: 1000px;
+  padding: 0 10px;
+  margin: 0 auto;
+}
+
+footer {
+  width: 100%;
+  color: #ffff;
+  background-color: black;
+  padding: 50px 0;
+}
+
+a:hover {
+  cursor: pointer;
 }
