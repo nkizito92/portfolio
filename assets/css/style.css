@@ -3,7 +3,7 @@
 }
 
 body {
-  background-color: #b1b1b1;
+  background: linear-gradient(48deg, #000637, 26%, #00e1ff, 30%, #ffff);
 }
 
 nav {
@@ -33,12 +33,14 @@ main {
   max-width: 1000px;
   padding: 0 10px;
   margin: 0 auto;
+  background-color: #ffffffc2;
 }
 
 footer {
   width: 100%;
+  text-align: center;
   color: #ffff;
-  background-color: black;
+  background-color: #004688;
   padding: 50px 0;
 }
 
