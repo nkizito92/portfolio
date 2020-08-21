@@ -35,6 +35,30 @@ main {
   margin: 0 auto;
   background-color: #ffffffc2;
 }
+form {
+  width: 600px;
+  margin: 0 auto;
+}
+
+input {
+  padding: 0 10px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+textarea {
+  padding: 0 10px;
+  width: 100%;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
 
 footer {
   width: 100%;
