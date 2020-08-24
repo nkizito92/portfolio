@@ -35,6 +35,14 @@ main {
   margin: 0 auto;
   background-color: #ffffffc2;
 }
+
+#descr {
+  background-color: white;
+  max-width: 600px ;
+  margin: 0 auto;
+  padding: 0 10px;
+
+}
 form {
   width: 600px;
   margin: 0 auto;
