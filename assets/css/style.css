@@ -38,10 +38,9 @@ main {
 
 #descr {
   background-color: white;
-  max-width: 600px ;
+  max-width: 600px;
   margin: 0 auto;
   padding: 0 10px;
-
 }
 form {
   width: 600px;
@@ -78,6 +77,30 @@ textarea:focus {
   border: 2px #00aeff solid;
 }
 
+.jumpUp {
+  font-weight: 800;
+  color: #ffff;
+  transition: 1s;
+  text-align: center;
+  padding: 10px 15px;
+  text-decoration: none;
+  background-color: #000080;
+  border-radius: 6px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+}
+.jumpUp:hover {
+  transition: 0.5s;
+  background-color: #0000803f;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -o-transition: 0.5s;
+}
 footer {
   width: 100%;
   text-align: center;
