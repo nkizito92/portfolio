@@ -43,6 +43,16 @@ nav div li {
   -webkit-filter: grayscale(0.15);
 }
 
+#info {
+  position: relative;
+  margin: 0 auto;
+  background-color: #088ffd8e;
+  width: auto;
+  top: 300px;
+  padding: 20px;
+  color: white;
+}
+
 main {
   width: 100%;
   max-width: 1000px;
