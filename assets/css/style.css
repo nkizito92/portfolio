@@ -53,6 +53,23 @@ nav div li {
   color: white;
 }
 
+#info a {
+  position: relative;
+  top: 20px;
+  background-color: #000080;
+  border-radius: 5px;
+  padding: 10px 15px;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  text-decoration: none;
+}
+
+#info a:active {
+  background-color: #9797fd;
+}
 main {
   width: 100%;
   max-width: 1000px;
