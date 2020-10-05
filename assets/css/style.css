@@ -51,7 +51,9 @@ main {
   height: 250px;
 }
 
-.card-img, .card-img-bottom, .card-img-top {
+.card-img,
+.card-img-bottom,
+.card-img-top {
   -ms-flex-negative: 0;
   flex-shrink: 0;
   width: 100%;
@@ -99,6 +101,8 @@ textarea:focus {
 }
 
 .jumpUp {
+  position: relative;
+  bottom: 15px;
   font-weight: 800;
   color: #ffff;
   transition: 1s;
