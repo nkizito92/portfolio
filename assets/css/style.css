@@ -25,10 +25,11 @@ nav a:active {
   color: #ff0000;
 }
 nav div {
-  text-align: right;
+  text-align: left;
 }
 nav div li {
-  display: inline-block;
+  margin-top: 60px;
+  list-style: none;
   padding: 5px;
 }
 
