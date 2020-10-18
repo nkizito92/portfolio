@@ -13,6 +13,19 @@ nav {
   height: 70px;
 }
 
+.sidebar {
+  position: absolute;
+  transition: 0.4s;
+  z-index: 5;
+  width: 400px;
+  background-color: #000264d3;
+  height: 100%;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
+}
+
 nav a {
   color: #ffff;
 }
