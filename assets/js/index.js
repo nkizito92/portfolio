@@ -7,10 +7,10 @@ function hambugerBar() {
   buns.addEventListener("click", function () {
     if (links.hidden === true) {
       links.hidden = false;
-      navBar.style.height = "100%";
+      navBar.className = "sidebar"
     } else {
       links.hidden = true;
-      navBar.style.height = "70px";
+      navBar.className = "";
     }
   });
 }
