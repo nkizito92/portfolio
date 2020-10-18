@@ -45,6 +45,9 @@ nav div {
   position: relative; 
   top: 100px;
 }
+#links a {
+  font-size: x-large;
+}
 nav div li {
   list-style: none;
   padding: 40px 5px;
