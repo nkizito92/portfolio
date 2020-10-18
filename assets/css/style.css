@@ -14,7 +14,7 @@ nav {
 }
 
 .sidebar {
-  position: absolute;
+  position: fixed;
   transition: 0.4s;
   z-index: 5;
   width: 400px;
@@ -41,9 +41,17 @@ nav div {
   text-align: left;
 }
 nav div li {
-  margin-top: 60px;
   list-style: none;
-  padding: 5px;
+  padding: 40px 5px;
+}
+
+nav div li:hover {
+  transition: 0.4s;
+  background-color: #6e70e4d3;
+  -webkit-transition: 0.4s;
+  -moz-transition: 0.4s;
+  -ms-transition: 0.4s;
+  -o-transition: 0.4s;
 }
 
 .bgImg {
