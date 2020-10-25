@@ -79,12 +79,16 @@ nav div li:hover {
   margin: 0 auto;
   background-color: #088ffd8e;
   width: auto;
-  top: 300px;
+  top: 250px;
   padding: 20px;
   color: white;
 }
+#info a:nth-child(1) {
+  background-color: none;
+  color: white;
+}
 
-#info a {
+#info a:nth-child(5) {
   position: relative;
   top: 20px;
   background-color: #000080;
