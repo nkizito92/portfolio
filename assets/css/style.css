@@ -16,16 +16,42 @@ nav {
 .sidebar {
   position: fixed;
   transition: 0.4s;
-  z-index: 5;
+  z-index: 4;
   width: 400px;
-  background-color: #000264d3;
+  background-color: #060624d3;
   height: 100%;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
   -o-transition: 0.4s;
 }
+#addSideBar {
+  position: fixed;
+  width: 325px;
+  transition: 0.2s;
+  left: 0;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -ms-transition: 0.2s;
+  -o-transition: 0.2s;
+}
+#addSideBar div {
+  position: relative;
+  width: 100%;
+  top: 100px;
+}
 
+#addSideBar li {
+  list-style: none;
+  font-size: x-large;
+}
+
+#addSideBar li a {
+  display: block;
+  padding: 40px 5px;
+  width: 100%;
+  color: white;
+}
 nav a {
   color: #ffff;
 }
@@ -37,25 +63,24 @@ nav a:hover {
 nav a:active {
   color: #ff0000;
 }
-nav div {
-  text-align: left;
-}
 
 #links {
   position: relative;
-  top: 100px;
+  text-align: right;
 }
 #links a {
-  font-size: x-large;
+  padding: 10px;
+  font-size: large;
 }
 nav div li {
-  list-style: none;
-  padding: 40px 5px;
+  display: inline-block;
 }
 
-nav div li:hover {
+#links a:hover,
+#addSideBar a:hover {
   transition: 0.4s;
-  background-color: #6e70e4d3;
+  background-color: #e99f00d3;
+  cursor: pointer;
   -webkit-transition: 0.4s;
   -moz-transition: 0.4s;
   -ms-transition: 0.4s;
