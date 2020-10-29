@@ -42,7 +42,7 @@ nav div {
 }
 
 #links {
-  position: relative; 
+  position: relative;
   top: 100px;
 }
 #links a {
@@ -198,6 +198,14 @@ footer {
   color: #ffff;
   background-color: #004688;
   padding: 50px 0;
+}
+
+footer a {
+  color: #ffffff;
+}
+
+footer a:hover {
+  color: #00e1ff;
 }
 
 a:hover {
