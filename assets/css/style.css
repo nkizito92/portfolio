@@ -140,10 +140,13 @@ main {
   background-color: #ffffffc2;
 }
 .card {
+  padding: 2px;
+  background-color: #808080;
   margin: 10px 0;
 }
 .card-body {
   height: 250px;
+  background-color: #eeeeee;
 }
 
 .card-img,
