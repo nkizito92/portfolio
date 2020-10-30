@@ -161,7 +161,7 @@ main {
   padding: 0 10px;
 }
 form {
-  width: 600px;
+  max-width: 600px;
   margin: 0 auto;
 }
 
