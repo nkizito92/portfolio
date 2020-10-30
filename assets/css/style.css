@@ -7,8 +7,10 @@ body {
 }
 
 nav {
+  z-index: 10;
+  position: fixed;
   width: 100%;
-  background-color: #303030;
+  background-color: #30303093;
   padding: 15px 0;
   height: 70px;
 }
@@ -137,7 +139,9 @@ main {
   margin: 0 auto;
   background-color: #ffffffc2;
 }
-
+.card {
+  margin: 10px 0;
+}
 .card-body {
   height: 250px;
 }
