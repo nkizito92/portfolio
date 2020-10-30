@@ -9,22 +9,30 @@ function hambugerBar() {
     if (hideBar === true) {
       // links.hidden = false;
       hideBar = false;
-      appearingLinks();
+      appearingLinks(true);
       sideBar.className = "sidebar";
+      buns.style.position = "fixed"
     } else {
       // links.hidden = true;
+      appearingLinks(false);
       hideBar = true;
       sideBar.className = "";
+      buns.style.position = "absolute";
+      
     }
   });
 
-  function appearingLinks() {
-    sideBar.innerHTML = 
-   `<div>
-    <li><a href="#portfolio"> Portfolio</a></li>
-    <li><a href="#about"> About Me </a></li>
-    <li><a href="#blog"> Blogs/Vlogs </a></li>
-    <li><a href="#contact"> Contacts</a></li>
-  </div>`
+  function appearingLinks(content) {
+    if(content === true) {
+      sideBar.innerHTML = 
+      `<div>
+      <li><a href="#portfolio"> Portfolio</a></li>
+      <li><a href="#about"> About Me </a></li>
+      <li><a href="#blog"> Blogs/Vlogs </a></li>
+      <li><a href="#contact"> Contacts</a></li>
+      </div>`
+    } else {
+      sideBar.innerHTML = ""
+    }
   }
 }
