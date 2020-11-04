@@ -28,6 +28,7 @@ function hambugerBar() {
       `<div>
       <li><a href="#portfolio"> Portfolio</a></li>
       <li><a href="#about"> About Me </a></li>
+      <li><a href="#achievements"> Achievements </a></li>
       <li><a href="#blog"> Blogs/Vlogs </a></li>
       <li><a href="#contact"> Contacts</a></li>
       </div>`
