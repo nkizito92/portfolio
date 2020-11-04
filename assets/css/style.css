@@ -50,7 +50,7 @@ nav {
 
 #addSideBar li a {
   display: block;
-  padding: 40px 5px;
+  padding: 30px 5px;
   width: 100%;
   color: white;
 }
@@ -64,6 +64,10 @@ nav a:hover {
 
 nav a:active {
   color: #ff0000;
+}
+
+a:hover {
+  cursor: pointer;
 }
 
 #links {
