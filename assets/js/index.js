@@ -16,34 +16,54 @@ function hambugerBar() {
       buns.children[2].style.transform = "translate(-7px, -10px)" + "rotate(125deg)"
       buns.children[1].style.opacity = 0;
       buns.style.borderRadius = "80%";
-      
+      clickLinkHideSideBar();
     } else {
       // links.hidden = true;
-      appearingLinks(false);
       hideBar = true;
+      appearingLinks(false);
       sideBar.className = "";
+      normalBuns();
+    }
+  });
+
+  function normalBuns () {
       buns.style.position = "absolute";
       buns.children[0].style.transform = ""
       buns.children[2].style.transform = ""
       buns.children[1].style.opacity = ""
       buns.style.borderRadius = "";
+  }
+
+  function clickLinkHideSideBar() {
+    let navLink = document.querySelectorAll("#navLink")
+    for(let link of navLink ) {
+      link.addEventListener("click", function () {
+        sideBar.innerHTML = "";
+        sideBar.className = ""
+        normalBuns();
+        hideBar = true;
+      });
     }
-  });
+  }
 
   function appearingLinks(content) {
     if(content === true) {
       sideBar.innerHTML = 
       `<div>
-          <li><a href="#portfolio"> Portfolio</a></li>
-          <li><a href="#about"> About Me </a></li>
-          <li><a href="#achievements"> Achievements </a></li>
-          <li><a href="#blog"> Blogs/Vlogs </a></li>
-          <li><a href="#contact"> Contacts</a></li>
+          <li><a id="navLink" href="#portfolio"> Portfolio</a></li>
+          <li><a id="navLink" href="#about"> About Me </a></li>
+          <li><a id="navLink" href="#achievements"> Achievements </a></li>
+          <li><a id="navLink" href="#blog"> Blogs/Vlogs </a></li>
+          <li><a id="navLink" href="#contact"> Contacts</a></li>
       </div>`
     } else {
       sideBar.innerHTML = ""
     }
   }
+
+ 
+
+ 
 
   // Get the modal
 var modal = document.querySelectorAll("#myModal");
