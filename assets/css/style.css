@@ -30,6 +30,7 @@ nav {
 #addSideBar {
   position: fixed;
   width: 325px;
+  overflow: auto;
   transition: 0.2s;
   left: 0;
   -webkit-transition: 0.2s;
