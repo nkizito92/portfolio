@@ -11,6 +11,7 @@
     integrity="sha384-XEerZL0cuoUbHE4nZReLT7nx9gQrQreJekYhJD9WNWhH8nEW+0c5qq7aIo2Wl30J"
     crossorigin="anonymous"></script>
   <script src="assets/js/index.js"></script>
+  <script src="assets/js/form.js"></script>
   <!-- CSS file -->
   <link rel="stylesheet" href="assets/css/style.css" />
   <link rel="stylesheet" href="assets/css/hamMenu.css" />
@@ -135,7 +136,7 @@
               <h5 class="card-title">Graduate Goals</h5>
               <p class="card-text">
                 This apps allows users to create a to-do list as they prepare to graduate from school.
-                Graduates Goals runs off of Sinatra and follows the CRUD lifecycle. 
+                Graduates Goals runs off of Sinatra and follows the CRUD lifecycle.
               </p>
               <a href="https://www.youtube.com/watch?v=U_nhsY5a3Y4" class="btn btn-primary" target="blank">Visit
                 Demo</a>
@@ -279,14 +280,14 @@
       <h1 class="display-4 bg-dark text-white p-4">
         <a id="contact"> CONTACT</a>
       </h1>
-      <form>
-        <input disabled type="text" placeholder="Full-name" /> <br />
-        <input disabled type="email" placeholder="Email" /> <br />
-        <textarea disabled name="" id="" cols="30" rows="10"
-          placeholder="Form is temporary disabled copy my email and paste it in your desired email."></textarea>
+      <form action="https://formspree.io/f/maylbryd" method="POST">
+        <input name="fullname" id="fullname" type="text" placeholder="Full-name" /> <br />
+        <input name="email" id="email" type="email" placeholder="Email" /> <br />
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Your message"></textarea>
         <br />
-        <input type="submit" class="btn btn-primary" value="Send" disabled />
+        <input type="submit" class="btn btn-primary" value="Send" />
       </form>
+      <div id="notice"></div>
       <div>
         <a class="jumpUp" href="#top">
           <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-caret-up-fill" fill="currentColor"
