@@ -269,6 +269,42 @@ textarea:focus {
   border: 2px #00aeff solid;
 }
 
+#notice {
+  border-radius: 5px;
+  margin: 0 auto;
+  max-width: 480px;
+  padding: 10px 0;
+  text-align: center;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.success {
+  background-color: #d1f39f;
+  color: green;
+  animation: status 3s linear;
+  -webkit-animation: status 3s linear;
+  opacity: 0;
+}
+
+.error {
+  background-color: #ff8b8b;
+  color: darkred;
+  animation: status 3s linear;
+  -webkit-animation: status 3s linear;
+  opacity: 0;
+}
+@keyframes status {
+  0% {
+    opacity: 1;
+  }
+
+  90% {
+    opacity: 1;
+  }
+}
+
 .jumpUp {
   position: relative;
   bottom: 15px;
